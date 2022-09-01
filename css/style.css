@@ -52,15 +52,27 @@ ul {list-style-type: none;}
 }
 .link:hover {color: #2196f3;}
 /* центральний напис */
-.h1{font-family: 'Roboto';
+h1{font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-    /* or 136% */
-
+    line-height: 1,4;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
     color: #FFFFFF;}
+    .center_text{background-color:#2F303A ;}
+    /* Кнопка */
+    .button{font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1,88;
+        /* identical to box height, or 188% */
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    
+        color: #FFFFFF;}
