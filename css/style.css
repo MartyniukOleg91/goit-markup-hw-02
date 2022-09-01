@@ -54,8 +54,12 @@ ul {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.link:focus{color: #2196f3;}
-.link:hover{color: #2196f3;}
+.link:focus {
+  color: #2196f3;
+}
+.link:hover {
+  color: #2196f3;
+}
 /* центральний напис */
 h1 {
   font-family: "Roboto";
@@ -84,90 +88,109 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;}
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
 
 /* Кнопки портфоліо */
-.button_portfolio{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #212121;
-        cursor:pointer;}
-.button_portfolio:hover{color: #2196f3;}
-.button_portfolio:focus{color: #2196f3;}
+.button_portfolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+.button_portfolio:hover {
+  color: #2196f3;
+}
+.button_portfolio:focus {
+  color: #2196f3;
+}
 
 /* скритий тег H1 переваги */
 .benefits {
-  display: none;}
+  display: none;
+}
 
-h2{font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;}
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 
-.benefits_list{font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;}
+.benefits_list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
 
-.benefits_detal{font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #757575;}
+.benefits_detal {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
-    /* Імена учасників команди */
-.name_person{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #212121;}
+/* Імена учасників команди */
+.name_person {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 
-    /* посади учасникв */
-.position_person{font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;}
+/* посади учасникв */
+.position_person {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
 /*  стилізація назв проектів*/
-    .project{font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
-        color: #212121;}
+.project {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
 
 /* стилізація категорій  */
-    .category{font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.88;
-        letter-spacing: 0.03em;
-        color: #757575;}
-    
+.category {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
