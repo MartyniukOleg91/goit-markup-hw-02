@@ -9,10 +9,12 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  color: #2196f3;}
+  line-height: 1.2;
+  color: #2196f3;
+}
 .logo_header .logo_black_part {
-  color: #000000;}
+  color: #000000;
+}
 
 /* logo footer WebStudio */
 .logo_footer {
@@ -21,13 +23,16 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  color: #2196f3;}
+  line-height: 1.2;
+  color: #2196f3;
+}
 .logo_footer .logo_black_part {
   color: #000000;
 }
 /* скасування колонтитулів */
-ul {list-style-type: none;}
+ul {
+  list-style-type: none;
+}
 
 /* формат шрифту всіх посилань */
 .link {
@@ -35,7 +40,7 @@ ul {list-style-type: none;}
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -45,34 +50,72 @@ ul {list-style-type: none;}
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: #757575;
 }
-.link:hover {color: #2196f3;}
+.link:focus{color: #2196f3;}
+.link:hover{color: #2196f3;}
 /* центральний напис */
-h1{font-family: 'Roboto';
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* центральний текст */
+.center_text {
+  background-color: #2f303a;
+}
+/* Кнопка */
+.button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;}
+
+/* скритий тег H1 переваги */
+.benefits {
+  display: none;}
+
+h2{font-family: 'Roboto';
     font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1,4;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;
+    color: #212121;}
+
+.benefits_list{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #FFFFFF;}
-    .center_text{background-color:#2F303A ;}
-    /* Кнопка */
-    .button{font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1,88;
-        /* identical to box height, or 188% */
+    color: #212121;}
+
+.benefits_detal{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;}
+
     
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-    
-        color: #FFFFFF;}
