@@ -1,2 +1,32 @@
-body{color: #2a2a2a;
+body {
+  color: #2a2a2a;
+}
+
+/* logo header WebStudio*/
+.logo_header {
+    text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+}
+.logo_header .logo_black_part {
+  color: #000000;
+}
+
+
+/* logo footer WebStudio */
+.logo_footer {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+}
+.logo_footer .logo_black_part {
+  color: #000000;
 }
