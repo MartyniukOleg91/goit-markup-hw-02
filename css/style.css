@@ -4,18 +4,15 @@ body {
 
 /* logo header WebStudio*/
 .logo_header {
-    text-decoration: none;
+  text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  color: #2196f3;
-}
+  color: #2196f3;}
 .logo_header .logo_black_part {
-  color: #000000;
-}
-
+  color: #000000;}
 
 /* logo footer WebStudio */
 .logo_footer {
@@ -25,9 +22,45 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  color: #2196f3;
-}
+  color: #2196f3;}
 .logo_footer .logo_black_part {
-  color: #000000;}  
-  
+  color: #000000;
+}
+/* скасування колонтитулів */
 ul {list-style-type: none;}
+
+/* формат шрифту всіх посилань */
+.link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+/* формат шрифту посилання телефон */
+.link_tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.link:hover {color: #2196f3;}
+/* центральний напис */
+.h1{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;}
