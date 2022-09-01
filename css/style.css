@@ -1,5 +1,5 @@
 body {
-  color: #2a2a2a;
+  color: #000000;
 }
 
 /* logo header WebStudio*/
@@ -28,6 +28,6 @@ body {
   color: #2196f3;
 }
 .logo_footer .logo_black_part {
-  color: #000000;
-}
-
+  color: #000000;}  
+  
+ul {list-style-type: none;}
