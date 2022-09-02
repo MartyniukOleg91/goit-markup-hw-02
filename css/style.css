@@ -194,3 +194,7 @@ h2 {
   letter-spacing: 0.03em;
   color: #757575;
 }
+/* активна поточна сторінка */
+.сurrent_page{color: #fd0909;}
+.сurrent_page:hover{color: #2196f3;}
+.сurrent_page:focus{color:#2196f3}
