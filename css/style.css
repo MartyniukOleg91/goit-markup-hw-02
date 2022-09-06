@@ -1,3 +1,4 @@
+a{text-decoration: none;}
 body {
   font-family: "Roboto";
   color: #212121;
@@ -160,6 +161,7 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+text-decoration: none;
 }
 
 /* стилізація категорій  */
