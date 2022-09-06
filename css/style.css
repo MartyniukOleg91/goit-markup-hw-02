@@ -6,7 +6,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-
 /* logo header WebStudio*/
 .logo_header {
   text-decoration: none;
@@ -41,7 +40,6 @@ body {
   color: #000000;
 }
 
-.current{color: #fd0909;}
 
 /* скасування колонтитулів */
 ul {
@@ -66,14 +64,18 @@ ul {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;}
+  color: #757575;
+}
 .link_tel:focus {
-  color: #2196f3;}
+  color: #2196f3;
+}
 .link_tel:hover {
-  color: #2196f3;}
+  color: #2196f3;
+}
 
-  .link:focus {
-  color: #2196f3;}
+.link:focus {
+  color: #2196f3;
+}
 .link:hover {
   color: #2196f3;
 }
@@ -96,15 +98,13 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  margin-left: auto;
-  margin-right: auto;
   cursor: pointer;
+  background-color: #2196f3;
 }
+.order{color: #ffffff;}
 
 /* Кнопки портфоліо */
 .button_portfolio {
@@ -112,8 +112,6 @@ ul {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
-
   cursor: pointer;
 }
 .button_portfolio:hover {
@@ -123,13 +121,8 @@ ul {
   color: #2196f3;
 }
 
-/* скритий тег H1 переваги */
-.benefits {
-  display: none;
-}
 
 .section_title {
-
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -146,11 +139,12 @@ ul {
 }
 
 /* Імена учасників команди */
-.team_name{
+.team_name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;}
+  text-align: center;
+}
 
 /* посади учасникв */
 .team_position {
@@ -173,49 +167,63 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 /* активна поточна сторінка */
-.сurrent_page {
-  color: #fd0909;
+.current {
+  background-color: #2196f3;
 }
-.сurrent_page:hover {
+.сurrent:hover {
   color: #2196f3;
 }
-.сurrent_page:focus {
+.сurrent:focus {
   color: #2196f3;
 }
 
 [type] {
-  color: #2196f3;}
- 
-  /* футер */
+  color: #2196f3;
+}
+
+/* футер */
 footer {
-  background: #2F303A;}
-.footer_link{
+  background: #2f303a;
+}
+.footer_link {
   line-height: 24px;
-  color: #FFFFFF;}
-    .footer_link:hover{color: #2196f3;}
-    .footer_link:focus{color:#2196f3}
+  color: #ffffff;
+}
+.footer_link:hover {
+  color: #2196f3;
+}
+.footer_link:focus {
+  color: #2196f3;
+}
 
-.footer_link_mail, .footer_link_tel{
+.footer_link_mail,
+.footer_link_tel {
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.6);}
+  color: rgba(255, 255, 255, 0.6);
+}
 
-    .footer_link_mail:hover, .footer_link_tel:hover{color:#2196f3}
-    .footer_link_mail:focus,.footer_link_tel:focus {color: #2196f3}
+.footer_link_mail:hover,
+.footer_link_tel:hover {
+  color: #2196f3;
+}
+.footer_link_mail:focus,
+.footer_link_tel:focus {
+  color: #2196f3;
+}
+/* скритий напис */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-         .visually-hidden {
-           position: absolute;
-           width: 1px;
-           height: 1px;
-           margin: -1px;
-           border: 0;
-           padding: 0;
-    
-           white-space: nowrap;
-           clip-path: inset(100%);
-           clip: rect(0 0 0 0);
-           overflow: hidden;
-         }
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
