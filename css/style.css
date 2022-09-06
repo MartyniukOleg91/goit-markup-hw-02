@@ -217,3 +217,17 @@ footer {
 
     .footer_link_mail:hover, .footer_link_tel:hover{color:#2196f3}
     .footer_link_mail:focus,.footer_link_tel:focus {color: #2196f3}
+
+         .visually-hidden {
+           position: absolute;
+           width: 1px;
+           height: 1px;
+           margin: -1px;
+           border: 0;
+           padding: 0;
+    
+           white-space: nowrap;
+           clip-path: inset(100%);
+           clip: rect(0 0 0 0);
+           overflow: hidden;
+         }
