@@ -1,4 +1,6 @@
-a{text-decoration: none;}
+a {
+  text-decoration: none;
+}
 body {
   font-family: "Roboto";
   color: #212121;
@@ -40,7 +42,6 @@ body {
 .logo_footer .logo_black_part {
   color: #000000;
 }
-
 
 /* скасування колонтитулів */
 ul {
@@ -121,7 +122,6 @@ ul {
   color: #2196f3;
 }
 
-
 .section_title {
   font-size: 36px;
   line-height: 1.17;
@@ -161,7 +161,6 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-text-decoration: none;
 }
 
 /* стилізація категорій  */
