@@ -1,6 +1,11 @@
-body {font-family: "Roboto";
-  color: #000000;
+body {
+  font-family: "Roboto";
+  color: #212121;
+  background-color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
+
 
 /* logo header WebStudio*/
 .logo_header {
@@ -12,8 +17,14 @@ body {font-family: "Roboto";
   line-height: 1.2;
   color: #2196f3;
 }
-.logo_header .logo_black_part {
+.logo_header > .link {
   color: #000000;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 /* logo footer WebStudio */
@@ -29,20 +40,26 @@ body {font-family: "Roboto";
 .logo_footer .logo_black_part {
   color: #000000;
 }
+
+.current{color: #fd0909;}
+
 /* скасування колонтитулів */
 ul {
   list-style-type: none;
 }
 
-/* формат шрифту всіх посилань */
-.link {
-  font-family: "Roboto";
-  font-style: normal;
+/* формат шрифту навігаційних посилань */
+.nav_link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+}
+.nav_link:focus {
+  color: #2196f3;
+}
+.nav_link:hover {
+  color: #2196f3;
 }
 /* формат шрифту посилання телефон */
 .link_tel {
@@ -52,18 +69,19 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
-}
-.link:focus {
-  color: #2196f3;
-}
+  color: #757575;}
+.link_tel:focus {
+  color: #2196f3;}
+.link_tel:hover {
+  color: #2196f3;}
+
+  .link:focus {
+  color: #2196f3;}
 .link:hover {
   color: #2196f3;
 }
 /* центральний напис */
-h1 {
-  font-family: "Roboto";
-  font-style: normal;
+.hiro_titel {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -117,59 +135,35 @@ h1 {
   display: none;
 }
 
-h2 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
+.section_title {
+
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
 }
 
-.benefits_list {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
+.benefits_title {
   line-height: 16px;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
 }
 
 .benefits_detal {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
 /* Імена учасників команди */
-.name_person {
-  font-family: "Roboto";
-  font-style: normal;
+.team_name{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
+  text-align: center;}
 
 /* посади учасникв */
-.position_person {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+.team_position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -195,6 +189,31 @@ h2 {
   color: #757575;
 }
 /* активна поточна сторінка */
-.сurrent_page{color: #fd0909;}
-.сurrent_page:hover{color: #2196f3;}
-.сurrent_page:focus{color:#2196f3}
+.сurrent_page {
+  color: #fd0909;
+}
+.сurrent_page:hover {
+  color: #2196f3;
+}
+.сurrent_page:focus {
+  color: #2196f3;
+}
+
+[type] {
+  color: #2196f3;}
+ 
+  /* футер */
+footer {
+  background: #2F303A;}
+.footer_link{
+  line-height: 24px;
+  color: #FFFFFF;}
+    .footer_link:hover{color: #2196f3;}
+    .footer_link:focus{color:#2196f3}
+
+.footer_link_mail, .footer_link_tel{
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);}
+
+    .footer_link_mail:hover, .footer_link_tel:hover{color:#2196f3}
+    .footer_link_mail:focus,.footer_link_tel:focus {color: #2196f3}
