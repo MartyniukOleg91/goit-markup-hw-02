@@ -78,9 +78,7 @@ ul {
 .link:focus {
   color: #2196f3;
 }
-.link:hover {
-  color: #2196f3;
-}
+
 /* центральний напис */
 .hiro_titel {
   font-weight: 900;
@@ -221,7 +219,6 @@ footer {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
