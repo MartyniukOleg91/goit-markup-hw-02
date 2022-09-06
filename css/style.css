@@ -63,10 +63,7 @@ ul {
 }
 /* формат шрифту посилання телефон */
 .link_tel {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;}
@@ -96,8 +93,6 @@ ul {
 }
 /* Кнопка */
 .button {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -113,14 +108,12 @@ ul {
 
 /* Кнопки портфоліо */
 .button_portfolio {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+
   cursor: pointer;
 }
 .button_portfolio:hover {
@@ -169,19 +162,14 @@ ul {
 
 /*  стилізація назв проектів*/
 .project {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
 }
 
 /* стилізація категорій  */
 .category {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
