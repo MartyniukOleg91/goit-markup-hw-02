@@ -52,6 +52,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  text-decoration: none;
 }
 .nav_link:focus {
   color: #2196f3;
@@ -65,6 +66,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 .link_tel:focus {
   color: #2196f3;
@@ -104,7 +106,6 @@ ul {
   cursor: pointer;
   background-color: #2196f3;
 }
-.order{color: #ffffff;}
 
 /* Кнопки портфоліо */
 .button_portfolio {
@@ -172,15 +173,12 @@ ul {
 /* активна поточна сторінка */
 .current {
   background-color: #2196f3;
+  text-decoration: none;
 }
 .сurrent:hover {
   color: #2196f3;
 }
 .сurrent:focus {
-  color: #2196f3;
-}
-
-[type] {
   color: #2196f3;
 }
 
@@ -191,6 +189,7 @@ footer {
 .footer_link {
   line-height: 24px;
   color: #ffffff;
+  text-decoration: none;
 }
 .footer_link:hover {
   color: #2196f3;
@@ -203,6 +202,7 @@ footer {
 .footer_link_tel {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .footer_link_mail:hover,
