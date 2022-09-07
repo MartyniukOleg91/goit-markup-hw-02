@@ -1,3 +1,8 @@
+:root{
+  --accent-color: #2196f3;
+
+}
+
 a {
   text-decoration: none;
 }
@@ -17,7 +22,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: #2196f3;
+  color: var(--accent-color)
 }
 .logo_header > .link {
   color: #000000;
@@ -37,10 +42,10 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo_footer .logo_black_part {
-  color: #000000;
+  color: #ffffff;
 }
 
 /* скасування колонтитулів */
@@ -57,28 +62,28 @@ ul {
   text-decoration: none;
 }
 .nav_link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .nav_link:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* формат шрифту посилання телефон */
-.link_tel {
+.contact_link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
 }
-.link_tel:focus {
-  color: #2196f3;
+.contact_link:focus {
+  color: var(--accent-color);
 }
-.link_tel:hover {
-  color: #2196f3;
+.contact_link:hover {
+  color: var(--accent-color);
 }
 
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* центральний напис */
@@ -104,7 +109,7 @@ ul {
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 /* Кнопки портфоліо */
@@ -116,10 +121,11 @@ ul {
   cursor: pointer;
 }
 .button_portfolio:hover {
-  color: #2196f3;
+  color: #ffffff;
+  background-color: var(--accent-color) ;
 }
 .button_portfolio:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .section_title {
@@ -129,7 +135,8 @@ ul {
 }
 
 .benefits_title {
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
@@ -156,7 +163,6 @@ ul {
 
 /*  стилізація назв проектів*/
 .project {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -165,21 +171,20 @@ ul {
 
 /* стилізація категорій  */
 .category {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   color: #757575;
 }
 /* активна поточна сторінка */
 .current {
-  background-color: #2196f3;
+ color: var(--accent-color);
   text-decoration: none;
 }
 .сurrent:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .сurrent:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* футер */
@@ -192,12 +197,13 @@ footer {
   text-decoration: none;
 }
 .footer_link:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .footer_link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
+address{font-style: normal;}
 .footer_link_mail,
 .footer_link_tel {
   line-height: 1.7;
@@ -207,11 +213,11 @@ footer {
 
 .footer_link_mail:hover,
 .footer_link_tel:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .footer_link_mail:focus,
 .footer_link_tel:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* скритий напис */
 .visually-hidden {
